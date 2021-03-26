@@ -1,0 +1,8 @@
+@media(max-width:768px){
+    .feature-item .icon img {
+        height: 64px;
+    }
+    .feature-item h1 {
+        font-size: 28px;
+    }
+}

@@ -51,6 +51,14 @@ html{
     top: 0;
     z-index: 100;
 }
+.hotline-text{
+    animation: hotline 1s ease-in-out  infinite;
+}
+@keyframes hotline{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 .banner-bottom-text {
     border-left: 4px solid #76d0f1;
 }
