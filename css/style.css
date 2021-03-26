@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+.bg-dark {
+    background: #11284A !important;
+}
+.bg-info {
+    background-color: #78d4f6!important;
+}
+.text-darkblue {
+    color: #10284a;
+}
+.text-info {
+    color: #78d4f6!important;
+}
+.section-padder{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.hero-section{
+    background-image: url(../images/banner-bg.png);
+    background-size: cover;
+}
+.hero-section::before{
+    content: "";
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0;
+    background: #11284ad7;
+
+}
+.input-icon-group .icon {
+    left: 10px;
+    top: 10px;
+}
+.input-icon-group .form-control {
+    padding-left: 45px;
+}
+
+.btn-info, 
+.btn-info:active, .btn-info:focus, 
+.btn-info:not(:disabled):not(.disabled):active {
+    background-color: #78d4f6;
+    border: 1px solid #78d4f6;
+    color: #10284a;
+}
+.navbar {
+    top: 0;
+    z-index: 100;
+}
+.banner-bottom-text {
+    border-left: 4px solid #76d0f1;
+}
+
+
+.form-control {
+    border-radius: 0px;
+    border-bottom: 2px solid #78d4f6;
+}
+
+.section-title h4 {
+    font-size: 31px;
+    font-weight: 800 !important;
+}
+.section-title h4::after {
+    content: "";
+    width: 70%;
+    height: 6px;
+    background-color: #78d4f6;
+    display: block;
+    background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
+    margin-top: 15px !important;
+    margin-bottom: 8px !important;
+    margin: 0 auto;
+}
+.section-title h4.text-white::after {
+    background: linear-gradient(135deg, rgba(255,255,255,1) 50%, rgba(56,192,240,1) 50%);
+}
+.varient-img img{
+    position: relative;
+    z-index: 1;
+}
+.varient-img::after, 
+.varient-img::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.varient-img::before{
+    background: #11284A;
+    left: -10px;
+    top: -10px;
+}
+.varient-img::after{
+    background: #77D3F5;
+    right: -10px;
+    bottom: -10px;
+}
+
+.why-us-img {
+    padding-left: 6%;
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+.why-us-img::before {
+    content: "";
+    width: 91%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 0px 9px #77d3f5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.footer-text{
+    opacity: .75;
+}
+.footer-links li{
+    margin-bottom: 8px;
+}
+.footer-links li a{
+    color: rgba(255, 255, 255, 0.76);
+}
+.footer-links li a:hover{
+    color: white;
+}
+.copyright-container{
+    background: #0B2142;
+
+}
