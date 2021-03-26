@@ -51,6 +51,9 @@ html{
     top: 0;
     z-index: 100;
 }
+.navbar-dark .navbar-nav .nav-link {
+    text-transform: uppercase;
+}
 .hotline-text{
     animation: hotline 1s ease-in-out  infinite;
 }
@@ -72,6 +75,7 @@ html{
 .section-title h4 {
     font-size: 31px;
     font-weight: 800 !important;
+    text-transform: uppercase;
 }
 .section-title h4::after {
     content: "";
